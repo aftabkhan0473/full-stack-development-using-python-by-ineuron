@@ -32,3 +32,4 @@ print(name, age, qualification,years_of_experience, sep="\n")
 # var3 = 12;
 var1,var2,var3 = 10,11,12;
 print(var1,var2,var3, sep=" ")
+print(id(True))
