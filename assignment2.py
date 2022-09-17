@@ -67,6 +67,7 @@ print(id(var___5))
 # 6. Write a python script to pribn all the keywords
 
 import keyword
+import os
 
 print(keyword.kwlist)
 
@@ -83,3 +84,9 @@ print(keyword.kwlist)
 
 
 # 10. Write a python script to display the current date and time. First create variables to store date and time, then display date and time in proper format (like: 16-9-2022) and 12:00PM
+
+import datetime
+today = datetime.datetime.now() #now function of datetime class of datetime module!
+
+osm_date = today.strftime("%d-%w-%Y and %H:%M%p")
+print(osm_date)
