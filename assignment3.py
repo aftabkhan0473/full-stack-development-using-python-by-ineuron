@@ -57,4 +57,13 @@ print(f"The hexadecimal value of that input number is {hex(user_number3)}")
 
 # 7. Wrie a python script to store binary number 1100101 in a variable and print it in decimal format.
 
+binary_input = input("Enter a binary number : ");
+list_binary = list(binary_input)
+list_binary.reverse() #can't store this in a variable!
+decimal = 0;
+
+for i in range(len(binary_input)):
+    decimal = decimal + int(list_binary[i])*2**i;
+
+print(decimal)
 
