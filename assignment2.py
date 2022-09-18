@@ -81,7 +81,7 @@ print(keyword.kwlist)
 # see A0 file and A1 file 
 
 # 9.Name the keywords, used as data in the python script. 
-
+# Ans :- That keywords are known as soft keywords and that are True, False and None. and we can use this to as a variable name
 
 # 10. Write a python script to display the current date and time. First create variables to store date and time, then display date and time in proper format (like: 16-9-2022) and 12:00PM
 
