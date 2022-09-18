@@ -67,3 +67,22 @@ for i in range(len(binary_input)):
 
 print(decimal)
 
+# 2nd method 
+bin_number2 = 0b1100101
+print(bin_number2)
+
+# 8. Write a python script to store a hexadecimal number 2F in a variable and print in octal format.
+
+hexa_number = 0x2f;
+print(hexa_number)
+print(type(hexa_number))
+
+# 9. Write a python script to store an octal number 125 in a variable and print it in library format.
+
+octal_number = 0o125;
+print(octal_number)
+
+# 10. Write a python script to add two numbers 25(in octal) and 39(in hexadecimal) and display the results in binary format.
+first_number = 0o25;
+second_number = 0x39;
+print(first_number+second_number)
