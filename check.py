@@ -1,3 +1,3 @@
-print(2083%10)
-print(2343%10)
-print(123429%10)
+variable1 = 15;
+variable2 = 15;
+print(variable1 is variable2)
